@@ -1,0 +1,27 @@
+<%= form_with model: employee do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :age %><br>
+    <%= form.text_area :age %><br>
+  </div>
+  
+  <div>
+    <%= form.label :gender %><br>
+    <%= form.text_area :gender %><br>
+   
+  </div>
+  
+  <div>
+    <%= form.label :designation %><br>
+    <%= form.text_area :designation %><br>
+    
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
